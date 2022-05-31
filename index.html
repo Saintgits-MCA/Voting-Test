@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Javascript Voting Eligibility Test</title>
+<script>
+function check()
+{
+var age=parseInt(document.getElementById("age").value);
+if(age>=18)
+document.write("You are eligible for voting");
+else
+document.write("You are not eligible for voting");
+}
+
+</script>
+</head>
+<body>
+<h1> Voting Eligibility Test</h1>
+Age:&emsp;&emsp;<input type="number" value="age" id="age" placeholder="Age">
+<input type="button" onclick="check()" value="Submit">
+
+</body>
+</html>
